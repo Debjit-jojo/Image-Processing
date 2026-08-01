@@ -81,5 +81,4 @@ cv2.imwrite('Laplacian_sharpened_image.jpg', sharpened_image2)
 plt.subplot(1, 2, 2)
 plt.title("Laplacian Sharpening CS24202")
 plt.imshow(sharpened_image2)
-
 plt.show()
