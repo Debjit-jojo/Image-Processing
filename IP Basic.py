@@ -26,7 +26,7 @@ plt.title("Original")
 plt.imshow(image)
 
 brightness = 10
-contrast = 2.3
+contrast = 3.3
 
 image2 = cv2.addWeighted(image, contrast, np.zeros(image.shape, image.dtype), 0, brightness)
 
