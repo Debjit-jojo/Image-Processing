@@ -2,7 +2,6 @@ import cv2
 import numpy as np
 
 img = cv2.imread('Messi Img.png', 0)
-
 if img is not None:
     negative = 255 - img
     combined = np.hstack((img, negative))
