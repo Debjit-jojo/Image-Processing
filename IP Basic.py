@@ -1,4 +1,4 @@
-import cv2 
+import cv2
 import numpy as np
 
 img = cv2.imread('Messi Img.png', 0)
